@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-areas: 'header header header nav'
+    'main main main main'
+    'footer footer footer footer';
+}
+
+header {
+    text-align: center;
+    grid-area: header;
+}
+
+nav {
+    grid-area: nav;
+    justify-content: center;
+}
+
+main {
+    grid-area: main;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    grid-area: footer;
+}
+
+td {
+    padding: 0.5em 0;
+    border: 1px solid black;
+}
